@@ -1,0 +1,22 @@
+{
+  "name": "hangmancli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "letter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrick-Willmore/HangmanCLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrick-Willmore/HangmanCLI/issues"
+  },
+  "homepage": "https://github.com/Patrick-Willmore/HangmanCLI#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1"
+  }
+}
