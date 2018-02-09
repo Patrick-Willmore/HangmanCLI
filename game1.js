@@ -13,23 +13,20 @@ function mainGame() {
     
     //function word from list of words
         //prompt user to guess ltr
-
+getGuess();
     function getGuess(){
 
 
         inquirer.prompt([
             {
-                name: "name",
+                type: "input",
+                name: "guess",
                 message: "What letter do you choose?"
             }
-        ]).then(function (answers) {
-            // initializes the variable newguy to be a programmer object which will take
-            // in all of the user's answers to the questions above
-            var newGuy = new Programmer(answers.name, answers.position, answers.age, answers.language);
-            // printInfo method is run to show that the newguy object was successfully created and filled
-            newGuy.printInfo();
+        ]).then(function(char){
+            console.log(JSON.stringify(char, null, '_'));
         });
     }
 }
-
+mainGame();
 
